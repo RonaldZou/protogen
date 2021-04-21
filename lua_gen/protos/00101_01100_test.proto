@@ -1,0 +1,11 @@
+// 心跳
+message CS_Ping {
+	option (msgId) = 101;
+}
+
+// 登录
+message SC_Login {
+	option (msgId) = 102;
+	string name = 1;
+	string email = 2;
+}
